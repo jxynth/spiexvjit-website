@@ -113,7 +113,7 @@ If you need to add environment variables:
 -   **Build Errors**: Check the "Logs" tab in Vercel or GitHub Actions. Common issues:
     -   Missing dependencies: Run `npm install`
     -   Type errors: Check TypeScript files
-    -   Network issues: Google Fonts must be accessible during build
+    -   Font loading: Google Fonts loads at runtime (not during build), so end users need internet access
 -   **CI/CD Failures**: Check the GitHub Actions tab in your repository for detailed logs.
 
 ## Deployment Checklist

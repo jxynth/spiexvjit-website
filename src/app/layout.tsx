@@ -19,8 +19,13 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             <head>
+                {/* 
+                  Using runtime font loading instead of next/font/google to ensure 
+                  builds work in all environments (including those with restricted network access).
+                  Preconnect hints optimize the font loading performance.
+                */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
                 <link 
                     href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" 
                     rel="stylesheet"
