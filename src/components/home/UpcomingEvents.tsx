@@ -36,7 +36,7 @@ export default function UpcomingEvents() {
                     <div className="space-y-4">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Upcoming Events</h2>
                         <p className="text-muted-foreground max-w-[600px]">
-                            Don't miss out on our upcoming workshops, hackathons, and seminars. Register now to secure your spot!
+                            Don&apos;t miss out on our upcoming workshops, hackathons, and seminars. Register now to secure your spot!
                         </p>
                     </div>
                     <Link href="/events">

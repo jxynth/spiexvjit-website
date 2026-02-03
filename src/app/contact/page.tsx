@@ -22,7 +22,7 @@ export default function ContactPage() {
                         </div>
                         <div className="flex items-start gap-3">
                             <MapPin className="text-primary h-5 w-5 mt-1" />
-                            <span>St. Peter's Institute of Engineering, Hyderabad</span>
+                            <span>St. Peter&apos;s Institute of Engineering, Hyderabad</span>
                         </div>
                     </div>
                 </div>
