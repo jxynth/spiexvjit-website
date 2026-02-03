@@ -17,7 +17,7 @@ export default function Achievements() {
                             </div>
                             <div>
                                 <h3 className="font-bold text-lg mb-2">Best Technical Club 2023</h3>
-                                <p className="text-sm text-muted-foreground">Awarded by St. Peter's Institute for outstanding contribution to student development and technical excellence.</p>
+                                <p className="text-sm text-muted-foreground">Awarded by St. Peter&apos;s Institute for outstanding contribution to student development and technical excellence.</p>
                             </div>
                         </div>
                     ))}

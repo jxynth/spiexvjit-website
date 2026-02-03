@@ -69,7 +69,7 @@ export default function Showcase() {
                         </h3>
                         <p className="max-w-md text-lg text-muted-foreground">
                             Explore our latest projects, events, and open-source contributions.
-                            We push the boundaries of what's possible.
+                            We push the boundaries of what&apos;s possible.
                         </p>
                     </div>
 

@@ -33,3 +33,29 @@ Official website for St. Peter's Institute of Engineering EXVJIT Club.
 -   `src/components`: Reusable UI components and page sections
 -   `src/lib`: Utility functions
 -   `src/styles`: Global styles and Tailwind configuration
+
+## Deployment
+
+This project is configured for automated deployment to Vercel with GitHub Actions CI/CD.
+
+### Quick Deploy to Vercel
+
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically detect Next.js and use settings from `vercel.json`
+3. Every push to `main` triggers automatic deployment
+
+For detailed deployment instructions, see [DEPLOY.md](./DEPLOY.md).
+
+### CI/CD Pipeline
+
+The repository includes automated checks on every push:
+- Code linting
+- Production build verification
+- Build artifact validation
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Start production server
+- `npm run lint` - Run ESLint
